@@ -1,6 +1,6 @@
 all: avl_tree.rs test.rs
 	rustc --crate-type=lib avl_tree.rs
-	rustc test.rs -L .
+	rustc --test test.rs -L .
 
 check:
 	./test
