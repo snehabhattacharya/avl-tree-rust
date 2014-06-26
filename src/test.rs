@@ -1,4 +1,4 @@
-extern crate avl_tree;
+extern crate tree;
 
 #[test]
 fn test_sanity() {
@@ -8,5 +8,5 @@ fn test_sanity() {
 
 #[test]
 fn trivial_import_from_lib() {
-    assert!(format!("hello {}", avl_tree::foo()) == String::from_str("hello world"));
+    assert!(format!("hello {}", tree::avl_tree::foo()) == String::from_str("hello world"));
 }
