@@ -6,6 +6,7 @@ fn test_sanity() {
     assert!(x == 2);
 }
 
-fn main() {
-    println!("hello {}", avl_tree::foo());
+#[test]
+fn trivial_import_from_lib() {
+    assert!(format!("hello {}", avl_tree::foo()) == String::from_str("hello world"));
 }

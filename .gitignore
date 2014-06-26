@@ -1,5 +1,6 @@
 test
 *~
+.#*
 *.rlib
 target/*
 

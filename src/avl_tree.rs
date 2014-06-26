@@ -1,5 +1,7 @@
 #[crate_id = "avl_tree#0.1"]
 
-pub fn foo() -> &'static str {
-    "world"
+use std::string::String;
+
+pub fn foo() -> String {
+    String::from_str("world")
 }
