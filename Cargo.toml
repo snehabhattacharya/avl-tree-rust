@@ -1,0 +1,9 @@
+[package]
+
+name = "avl-tree"
+version = "0.1.0"
+authors = ["Foo Bar"]
+
+[[bin]]
+
+name = "avl-tree"
