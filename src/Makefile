@@ -3,6 +3,7 @@ all: tree.rs avl_tree.rs test.rs
 	rustc --test test.rs -L .
 
 check:
+	make
 	./test
 
 clean:
